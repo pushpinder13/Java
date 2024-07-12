@@ -6,7 +6,7 @@ class Solution {
             char c = num.charAt(i);
             if (c % 2 != 0) {
                 return num.substring(0, i + 1);
-            }
+            } 
         }
         return "";
     }
